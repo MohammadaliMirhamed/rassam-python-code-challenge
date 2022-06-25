@@ -1,4 +1,19 @@
 # rassam-challenge
+First, install the software packages with the following command.
+
+$ pip install -r requirements.txt
+
+Then there is an .env file where you can import postgresql database information.
+
+Then run a file called install.py first of all to create the required table inside the database and import csv data into the database. There is a point here that in this file, the time to import data is simultaneously translating the country field, which prolongs the installation process. If necessary, you can disable this part of the code.
+
+Then the menu.py file is the main menu, which has several main menus. 1- Adding new information to the database 2- It is also a statistic of the number of users based on gender in relation to the country entered.
+
+There are a number of other folders, such as classes, that try to use object-orientation and factory method design pattern to cover that part as well.
+
+
+
+
 
 در ابتدا با دستور زیر پکیج های نرم افزار رو نصب کنید.
 
